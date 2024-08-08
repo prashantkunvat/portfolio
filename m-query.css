@@ -1,0 +1,607 @@
+@media screen and (max-width: 480px) {
+	.page-heading {
+		padding: 0;
+		margin-bottom: 3rem;
+	}
+	/* Flexbox settings for hero section */
+	.hero {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100vh;
+		position: relative;
+	}
+
+	.heading {
+		font-size: 1.6rem;
+		/* margin-left: 4rem;
+		margin-right: 4rem; */
+		text-align: center;
+		width: 100%;
+	}
+
+	.heading-1 {
+		/* margin-left: 2rem;
+		margin-right: 2rem; */
+	}
+	.heading-2 {
+		animation-name: moveRight;
+		animation-duration: 1.5s;
+		animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	}
+
+	.btn {
+		width: 8.7rem;
+		padding: 4px;
+		margin-top: 25px;
+	}
+
+	.btn a {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.btn img {
+		height: 14px;
+		margin-left: 0;
+	}
+
+	.page-heading {
+		font-size: 30px;
+	}
+
+	/* NAVBAR HEADER */
+
+	.header {
+		font-size: 17px;
+		padding: 20px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.list-container {
+		gap: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav-items {
+		display: flex;
+	}
+	.nav-items a {
+		margin-left: 0;
+	}
+
+	.nav-about {
+		display: none;
+	}
+
+	/* ABOUT SECTION */
+
+	.about-content {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 50px 25px 50px 25px;
+		gap: 1.5rem;
+		color: white;
+		flex-direction: column;
+	}
+
+	.image img {
+		width: 12rem;
+	}
+
+	.about-info p {
+		text-align: start;
+	}
+
+	/* SKILL SECTION */
+
+	.skill-data {
+		display: flex;
+		align-items: start;
+	}
+
+	.skill-bar {
+		width: 60vw;
+	}
+
+	.skill-name {
+		font-size: 20px;
+	}
+
+	.skill-name img {
+		font-size: 20px;
+	}
+
+	/* PROJECT SECTION */
+
+	#project {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project-container {
+		margin: 0 1rem;
+		grid-template-columns: 1fr;
+		gap: 0rem;
+		border-radius: 12px;
+	}
+
+	.project-img {
+		width: 90vw; /* Adjust to full width */
+		height: auto; /* Adjust height to maintain aspect ratio */
+		border-radius: 10px;
+	}
+
+	.project-img img {
+		width: 100%;
+		height: auto; /* Maintain aspect ratio */
+		object-fit: contain; /* Adjust object fit to prevent zooming */
+	}
+
+	.project-info {
+		width: 90vw;
+		margin: 0;
+		background-color: #1a1a1a;
+		overflow-x: hidden;
+		margin-bottom: 2rem;
+		gap: 0.7rem;
+	}
+	.project-heading h2 {
+		font-size: 1.2em;
+		margin-left: 12px;
+	}
+
+	.project-description {
+		margin: 0;
+	}
+
+	.project-description p {
+		text-align: start;
+		margin-left: 12px;
+	}
+	.project-btn {
+		display: flex;
+		width: 90vw;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.project-btn button {
+		font-size: 13px;
+		padding: 2px 3px;
+		height: 2rem;
+	}
+
+	.position-invert {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	/* CONTACT SECTION */
+
+	#contact {
+		width: 95%;
+	}
+
+	.contact-form {
+		overflow-x: hidden;
+		width: auto;
+	}
+	.input-name,
+	.input-email,
+	.message {
+		font-size: 0.9rem;
+		width: 90%;
+		outline: none;
+	}
+
+	.message {
+		height: 8rem;
+	}
+
+	.send {
+		/* width: 100%; */
+		height: 2.5rem;
+		font-size: 0.9rem;
+		align-self: center;
+	}
+
+	/* FOOTER */
+
+	.return-home {
+		width: 34px;
+		height: 36px;
+	}
+
+	.return-home img {
+		width: 34px;
+	}
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+/* @media (min-width: 480px) and (max-width: 767px) { */
+/* 
+} */
+
+/* Media Queries for screens between 480px and 767px */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	/* Flexbox settings for hero section */
+	.hero {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100vh;
+		position: relative;
+	}
+
+	.heading {
+		font-size: 2.2rem;
+		text-align: center;
+		width: 100%;
+	}
+
+	.heading-1,
+	.heading-2 {
+		margin: 0 1rem;
+	}
+
+	.heading-2 {
+		animation-name: moveRight;
+		animation-duration: 1.5s;
+		animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	}
+
+	/* .btn {
+		width: 12rem;
+		padding: 8px;
+		margin-top: 25px;
+	}
+
+	.btn a {
+		font-size: 28px;
+		text-align: center;
+	} */
+
+	.btn {
+		width: 8.7rem;
+		padding: 4px;
+		margin-top: 25px;
+	}
+
+	.btn a {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.btn img {
+		height: 14px;
+		margin-left: 0;
+	}
+
+	.btn img {
+		margin-left: 8px; /* Adds some space between the text and the image */
+		width: 16px; /* Adjusts the size of the image */
+		height: 16px; /* Ensures the image is square */
+	}
+
+	/* NAVBAR HEADER */
+	.header {
+		font-size: 18px;
+		padding: 20px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.list-container {
+		gap: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav-items {
+		display: flex;
+	}
+
+	.nav-items a {
+		margin-left: 0;
+	}
+
+	/* ABOUT SECTION */
+	/* .about-content {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 50px 25px;
+		gap: 100px;
+		color: white;
+		flex-direction: column;
+	} */
+
+	.about-content {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 50px 25px 50px 25px;
+		gap: 1.5rem;
+		color: white;
+		flex-direction: column;
+	}
+	.image img {
+		width: 14rem;
+	}
+
+	.about-info p {
+		text-align: start;
+	}
+
+	/* SKILL SECTION */
+	.skill-data {
+		display: flex;
+		align-items: start;
+	}
+
+	.skill-bar {
+		width: 60vw;
+	}
+
+	/* PROJECT SECTION */
+
+	#project {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.project-container {
+		margin: 0 1rem;
+		grid-template-columns: 1fr;
+		gap: 0rem;
+		border-radius: 12px;
+		margin-bottom: 3rem;
+	}
+
+	/* .project-img {
+		width: 85vw;
+		height: 40vh;
+		border-radius: 0;
+	}
+
+	.project-info {
+		width: 85vw;
+		margin: 0;
+		background-color: #1a1a1a;
+		overflow-x: hidden;
+	} */
+
+	.project-img {
+		width: 90vw; /* Adjust to full width */
+		height: auto; /* Adjust height to maintain aspect ratio */
+		border-radius: 10px;
+	}
+
+	.project-img img {
+		width: 100%;
+		height: auto; /* Maintain aspect ratio */
+		object-fit: contain; /* Adjust object fit to prevent zooming */
+	}
+
+	.project-info {
+		width: 90vw;
+		background-color: #1a1a1a;
+		margin: 0;
+		margin-bottom: 4rem;
+	}
+
+	.project-heading h2 {
+		font-size: 1.5em;
+		margin-left: 12px;
+	}
+
+	.project-description {
+		margin: 0;
+	}
+
+	.project-description p {
+		text-align: start;
+		margin-left: 12px;
+	}
+
+	.project-btn {
+		display: flex;
+		width: 85vw;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.project-btn button {
+		font-size: 15px;
+		padding: 5px 8px;
+		height: 2rem;
+	}
+
+	.position-invert {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	/* CONTACT SECTION */
+	#contact {
+		width: 90%;
+	}
+
+	.contact-form {
+		overflow-x: hidden;
+		width: auto;
+	}
+
+	.input-name,
+	.input-email,
+	.message {
+		font-size: 1rem;
+		width: 85%;
+		outline: none;
+	}
+
+	.message {
+		height: 10rem;
+	}
+
+	.send {
+		height: 2.5rem;
+		font-size: 1rem;
+		align-self: center;
+	}
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1160px) {
+	/* HERO SECTION */
+
+	.heading {
+		font-size: 3rem;
+	}
+	.heading-2 {
+		text-align: center;
+	}
+	/* PROJECT SECTION */
+
+	#project {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.project-container {
+		margin: 0px 2rem;
+		margin-top: 5rem;
+	}
+
+	.project-heading h2 {
+		font-size: 2rem;
+	}
+
+	.project-description {
+		margin-top: 1rem;
+	}
+
+	.project-description p {
+		text-align: start;
+	}
+
+	.project-img {
+		height: auto; /* Adjust height to maintain aspect ratio */
+		border-radius: 10px;
+	}
+
+	.project-img img {
+		width: 100%;
+		height: 100%; /* Maintain aspect ratio */
+		object-fit: contain; /* Adjust object fit to prevent zooming */
+	}
+
+	.project-heading h2 {
+		font-size: 1.8rem;
+	}
+
+	.project-description {
+		margin-top: 0;
+	}
+
+	.project-btn {
+		display: flex;
+	}
+
+	.project-btn button {
+		width: 8rem;
+		font-size: 12px;
+	}
+
+	/* ABOUT SECTION */
+
+	.about-content {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 50px 150px 50px 150px;
+		gap: 1.5rem;
+		color: white;
+		flex-direction: column;
+	}
+
+	image img {
+		width: 14rem;
+	}
+
+	.about-info p {
+		text-align: start;
+	}
+
+	/* CONTACT SECTION */
+
+	.input-name,
+	.input-email,
+	.message {
+		width: 60vw;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1470px) {
+	.about-content {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 50px 100px 50px 300px;
+		gap: 4rem;
+		color: white;
+	}
+
+	.about-info p {
+		text-align: start;
+	}
+
+	.project-container {
+		border-radius: 12px;
+	}
+	.project-img {
+		height: auto; /* Adjust height to maintain aspect ratio */
+		border-radius: 10px;
+	}
+
+	.project-img img {
+		width: 100%;
+		height: auto; /* Maintain aspect ratio */
+		object-fit: contain; /* Adjust object fit to prevent zooming */
+	}
+
+	.project-heading h2 {
+		font-size: 2rem;
+	}
+
+	.project-description {
+		margin-top: 0;
+	}
+
+	.project-btn {
+		display: flex;
+	}
+}

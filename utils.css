@@ -1,0 +1,45 @@
+:root {
+	--main-red: #ff4d5a;
+	--f-s: 3em;
+	--f-w: 700;
+	--skill-font: 30px;
+}
+
+.page-heading {
+	color: white;
+	font-size: var(--f-s);
+	font-weight: var(--f-w);
+	padding: 40px;
+	font-family: "Playfair Display", serif;
+}
+
+.page-heading::before {
+	position: absolute;
+	content: "";
+	border-bottom: 18px solid #ff4d5a;
+	width: 11rem;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	left: 1.5rem;
+	top: 3rem;
+	z-index: -1;
+}
+.m-1 {
+	margin: 50px 0;
+}
+.svg-size {
+	width: 25px;
+}
+
+.margin-top {
+	margin-top: 80px;
+}
+
+.margin-bottom {
+	margin-bottom: 6rem;
+}
+
+.invert {
+	filter: invert();
+}

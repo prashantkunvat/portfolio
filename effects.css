@@ -1,0 +1,203 @@
+/* Animation for heading - 1 */
+@keyframes moveLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.heading-1 {
+	opacity: 0;
+}
+.heading-1 {
+	animation-name: moveLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	opacity: 1;
+}
+
+/* Animation for heading - 2 */
+@keyframes moveRight {
+	0% {
+		opacity: 0;
+		transform: translateX(20rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.heading-2 {
+	opacity: 0;
+}
+.heading-2 {
+	animation-name: moveRight;
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	opacity: 1;
+}
+
+/* Animation for btn */
+@keyframes moveTop {
+	0% {
+		opacity: 0;
+		transform: translateY(15rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.btn {
+	opacity: 0;
+}
+.btn {
+	animation-name: moveTop;
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	opacity: 1;
+}
+
+/* Animation for About */
+@keyframes moveBottom {
+	0% {
+		opacity: 0.1;
+		transform: translateY(-1rem);
+	}
+	50% {
+		opacity: 0.5;
+		transform: translateY(1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes upDown {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(1rem);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.image img {
+	opacity: 0;
+}
+
+.image-animate {
+	animation: slideInFromTop 1s forwards;
+	opacity: 1;
+}
+
+.about-info {
+	opacity: 0;
+}
+.about-animate {
+	animation-name: moveBottom;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	opacity: 1;
+}
+
+/* Skill section animations */
+
+.skill-data {
+	opacity: 0;
+}
+.skill-animate {
+	animation-name: moveLeft;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	opacity: 1;
+}
+
+.skill-data:nth-child(1).animated {
+	animation-delay: 0.2s;
+}
+
+.skill-data:nth-child(2).animated {
+	animation-delay: 0.4s;
+}
+
+.skill-data:nth-child(3).animated {
+	animation-delay: 0.6s;
+}
+
+@keyframes slideInFromTop {
+	from {
+		transform: translateY(-40%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* Animation for info */
+@keyframes slideInFromBottom {
+	from {
+		transform: translateY(40%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.project-img {
+	opacity: 0;
+}
+.project-img-animate {
+	animation: slideInFromTop 1s forwards;
+	opacity: 1;
+}
+
+.project-info {
+	opacity: 0;
+}
+.project-info-animate {
+	animation: slideInFromBottom 1s forwards;
+	opacity: 1;
+}
+
+/* ANIMATION FOR CONTACT FORM */
+.input-name,
+.input-email,
+.message {
+	opacity: 0;
+}
+.input-animate {
+	animation-name: upDown;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	opacity: 1;
+}
+
+/* HEADER COLOR CHANGE */
+
+.nav-items a.active {
+	color: var(--main-red);
+}
+
+/* ANIMATION FOR RETURN-HOME */
+
+.return-home:hover {
+	animation-name: upDown;
+	animation-duration: 1.2s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	animation-iteration-count: infinite; /* Animation repeats infinitely */
+}

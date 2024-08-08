@@ -1,0 +1,172 @@
+/* Animation for heading - 1 */
+
+@keyframes moveLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-40rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.heading-1.animate {
+	animation-name: moveLeft;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+/* Animation for heading - 2 */
+
+@keyframes moveRight {
+	0% {
+		opacity: 0;
+		transform: translateX(40rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.heading-2.animate {
+	animation-name: moveRight;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+/* Animation for btn */
+
+@keyframes moveTop {
+	0% {
+		opacity: 0;
+		transform: translateY(40rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.btn.animate {
+	animation-name: moveTop;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+/* Animation for About */
+
+@keyframes moveBottom {
+	0% {
+		opacity: 0.1;
+		transform: translateY(-1rem);
+	}
+
+	50% {
+		opacity: 0.5;
+		transform: translatey(1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes upDown {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translatey(1rem);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.image img.animate {
+	animation-name: moveBottom;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+.about-info.animate {
+	animation-name: moveBottom;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+/* HEADER COLOR CHANGE */
+
+.nav-items a.active {
+	color: var(
+		--main-red
+	); /* Change this to the color you want for the active link */
+}
+
+/* Skill section animations */
+
+.skill-data.animate {
+	animation-name: upDown;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+/* Add more delays as needed for additional skills */
+
+/* ANIMATION FOR PROJECTS */
+
+/* Container setup */
+
+/* Animation for image */
+@keyframes slideInFromTop {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* Animation for info */
+@keyframes slideInFromBottom {
+	from {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.project-img.animate {
+	animation: slideInFromTop 1s forwards;
+}
+
+.project-info.animate {
+	animation: slideInFromBottom 1s forwards;
+}
+
+/* Initially hide the elements */
+.project-img,
+.project-info {
+	opacity: 0;
+}
+
+/* ANIMATION FOR CONTACT FORM */
+
+.input-name.animate,
+.input-email.animate,
+.message.animate {
+	animation-name: upDown;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}

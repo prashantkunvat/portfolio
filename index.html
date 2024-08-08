@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="m-query.css" />
+		<link rel="stylesheet" href="utils.css" />
+		<link rel="stylesheet" href="effects.css" />
+	</head>
+
+	<body>
+		<section id="home">
+			<div class="hero">
+				<!-- background Animathion -->
+				<div class="canvas light-mode">
+					<canvas id="starLink"></canvas>
+				</div>
+
+				<!-- This is intoduction -->
+				<div class="heading">
+					<div class="heading-1" data-animate="moveLeft">
+						Hello, I'm
+						<span>Prashant</span>
+						.
+					</div>
+					<div class="heading-2" data-animate="moveRight"  >
+						I'm a
+						<span class="role"></span>
+					</div>
+					<button class="btn" data-animate="moveTop">
+						<a href="https://drive.google.com/file/d/1SWOVIVMq5tjcwNLu9alEg45vjfQ2ZH0Q/view" download="Prashant_Resume.pdf">Resume
+							<img src="img\download.svg" alt="">
+						</a>
+					</button>
+				</div>
+			</div>
+     	</section>
+		<!-- NAV BAR -->
+		<header class="header ">
+						<ul class="list-container">
+							<li class="nav-items">
+								<a href="#home">Home</a>
+							</li>
+							<li class="nav-items nav-about">
+								<a href="#about">About</a>
+							</li>
+							<li class="nav-items">
+								<a href="#skills">Skills</a>
+							</li>
+							<li class="nav-items">
+								<a href="#project">Projects</a>
+							</li>
+							<li class="nav-items">
+								<a href="#contact">Contact</a>
+							</li class="nav-items">
+						</ul>
+		</header>
+		<div class="content">
+			<div class="spaceCanvas">
+				<canvas id="spaceCanvas"></canvas>
+			</div>
+
+			<!-- About Section -->
+			<section id="about" class="about ">
+
+				<h2 class="page-heading">About</h2>
+				<div class="about-content">
+					<div class="image">
+						<img src="img/profile.svg" alt="">
+					</div>
+					<div class="about-info">
+						<p>
+						</p>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- skill Section -->
+			<section id="skills" class="margin-top margin-bottom">
+				<h2 class="page-heading">Skills</h2>
+				<div class="skill-container">
+				</div>
+			</section>
+
+
+			<!-- PROJECT SECTION -->
+
+			<section id="project">
+				<h2 class="page-heading" id="project-heading">Project</h2>
+				<div class="project-container"></div>	
+			</section>
+
+			<!-- Contact Section -->
+			<section id="contact">
+				<h2 class="page-heading">Contact</h2>
+				<form class="contact-form" action="https://api.web3forms.com/submit" method="POST" >
+					<input type="hidden" name="access_key" value="95d91e81-6d7d-41a0-bda4-7cb9315449b1">
+					<input class="input-name" type="text" name="name" placeholder="Name">
+					<input class="input-email" type="email" name="email" placeholder="Email">
+					<textarea class="message" name="text" id="" cols="" rows="	" placeholder="Message"></textarea>
+					<button class="send fill" type="submit">Submit</button>
+				</form>
+			</section>
+
+			<!-- FOOTER SECTION -->
+
+		<footer>
+			<a href="#home">
+				<div class="return-home">
+					<img src="img/toTop.svg" alt="">
+				</div>
+				<div class="footer-socials">
+					<a href="https://github.com/prashantkunvat">
+						<img class="svg-size invert" src="img/git.svg" alt="">
+					</a>
+					<a href="https://www.instagram.com/prashant_kunvat/">
+						<img class="svg-size invert" src="img/insta.svg" alt="">
+					</a>
+					<a href="https://www.quora.com/profile/Prashant-Kunvat/">
+						<img class="svg-size invert" src="img/quora.svg" alt="">
+					</a>
+					<a href="">
+						<img class="svg-size invert" src="img/linkdian2.svg" alt="">
+					</a>
+				</div>
+				<p id="copyright">&copy; Copyright all rights reserved.</p>
+			</a>
+
+		</footer>
+			
+		</div>
+
+		
+		<script src="spaceCanvas.js"></script>
+		<script src="starLink.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="main.js"></script>
+	
+
+	</body>
+</html>

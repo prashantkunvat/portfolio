@@ -1,0 +1,30 @@
+[
+    {
+        "imgSrc":"img/spotify_app.png",
+        "heading":"Music App ",
+        "description":"clone of spotify musi app using html, css, js",
+        "demoLink":"#",
+        "code":"#"
+    },
+    {
+        "imgSrc":"img/to-do-list.png",
+        "heading":"Music App ",
+        "description":"clone of spotify musi app using html, css, js",
+        "demoLink":"#",
+        "code":"#"
+    },
+    {
+        "imgSrc":"img/snake_game.png",
+        "heading":"Music App ",
+        "description":"clone of spotify musi app using html, css, js",
+        "demoLink":"#",
+        "code":"#"
+    },
+    {
+        "imgSrc":"img/currency_converter.png",
+        "heading":"Music App ",
+        "description":"clone of spotify musi app using html, css, js",
+        "demoLink":"#",
+        "code":"#"
+    }
+]

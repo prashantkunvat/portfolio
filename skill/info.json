@@ -1,0 +1,15 @@
+[
+    {
+        "title": "HTML",
+        "imgSrc": "img/html.png"
+    },
+    {
+        "title": "CSS",
+        "imgSrc": "img/css.png"
+    },
+    {
+        "title": "JavaScript",
+        "imgSrc": "img/js.png"
+    }
+    
+]

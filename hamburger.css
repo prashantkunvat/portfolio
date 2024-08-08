@@ -1,0 +1,102 @@
+/* Animation for About Image */
+@keyframes shrinkToGrow {
+	0% {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.image img {
+	opacity: 0;
+}
+
+.about-content[data-animate="moveBottom"] .image img {
+	animation: shrinkToGrow 1s ease forwards;
+	opacity: 1;
+}
+
+.about-paragraph {
+	opacity: 0;
+	transform: translateX(-10%);
+}
+
+.about-animate {
+	animation-name: slideInFromLeft;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s; /* Adjust delay as needed */
+}
+
+@keyframes slideInFromLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Animation for About Information */
+@keyframes slideInFromLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.about-content[data-animate="moveBottom"] .about-info {
+	opacity: 0;
+}
+
+.about-content[data-animate="moveBottom"] .about-info h3,
+.about-content[data-animate="moveBottom"] .about-info p {
+	animation: slideInFromLeft 1s ease forwards;
+	opacity: 1;
+}
+
+@keyframes slideInFromLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.skill-item {
+	opacity: 0;
+}
+
+.skill-animate {
+	animation-name: slideInFromLeft;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s; /* Adjust delay as needed */
+}
+
+.skill-animate:nth-child(even) {
+	animation-name: slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+	0% {
+		opacity: 0;
+		transform: translateX(10%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
