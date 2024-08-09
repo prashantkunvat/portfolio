@@ -61,15 +61,15 @@ async function displayProject() {
                     </div>
                     <div class="project-btn">
                        
+						<a href="${project[i].demoLink}" target="_blank">
 						<button class="fill">Live Demo
-							<a href="${project[i].demoLink}">
-                        	</a>
 						</button>
+						</a>
                         
+						<a href="${project[i].code}"  target="_blank">
 						<button class="fill">Source Code
-							<a href="${project[i].code}">
-                        	</a>
 						</button>
+						</a>
                     </div>
                 </div>`;
 		}
@@ -201,3 +201,17 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	});
 });
+
+// Clear Contatact Form after submiting
+
+document
+	.getElementById("contact-form")
+	.addEventListener("submit", function (event) {
+		// Optionally, you can prevent the default form submission here if you want to handle the submission with JavaScript.
+		// event.preventDefault();
+
+		// Clear form fields after submission
+		setTimeout(function () {
+			document.getElementById("contact-form").reset();
+		}, 100); // Delay to ensure form data is submitted before resetting
+	});

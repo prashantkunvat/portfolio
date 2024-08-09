@@ -10,6 +10,14 @@
     {
         "title": "JavaScript",
         "imgSrc": "img/js.png"
+    },
+    {
+        "title": "Tailwind",
+        "imgSrc": "img/tailwind.png"
+    },
+    {
+        "title": "React JS",
+        "imgSrc": "img/reactjs.png"
     }
     
 ]

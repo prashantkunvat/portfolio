@@ -1,30 +1,24 @@
 [
     {
-        "imgSrc":"img/spotify_app.png",
-        "heading":"Music App ",
-        "description":"clone of spotify musi app using html, css, js",
-        "demoLink":"#",
-        "code":"#"
-    },
+        "imgSrc": "img/spotify.png",
+        "heading": "My Music App",
+        "description": "Developed a fully functional Spotify clone using HTML, CSS, and JavaScript. The project includes essential features such as playlist creation, dynamic song addition, and comprehensive music player functionalities, delivering an engaging and user-friendly experience.",
+        "demoLink": "https://prashantkunvat.github.io/Spotify_app/",
+        "code": "https://github.com/prashantkunvat/Spotify_app"
+    } ,
     {
-        "imgSrc":"img/to-do-list.png",
-        "heading":"Music App ",
-        "description":"clone of spotify musi app using html, css, js",
-        "demoLink":"#",
-        "code":"#"
-    },
+        "imgSrc": "img/SocialSage.png",
+        "heading": "Social Sage",
+        "description": "Social Sage is an innovative media aggregation tool designed to streamline the downloading of content from major social and streaming platforms, including YouTube, Instagram, Facebook, and Spotify.",
+        "demoLink": "https://prashantkunvat.github.io/socialsage/youtube/index.html",
+        "code": "https://github.com/prashantkunvat/socialsage"
+    }
+    ,
     {
         "imgSrc":"img/snake_game.png",
-        "heading":"Music App ",
-        "description":"clone of spotify musi app using html, css, js",
-        "demoLink":"#",
-        "code":"#"
-    },
-    {
-        "imgSrc":"img/currency_converter.png",
-        "heading":"Music App ",
-        "description":"clone of spotify musi app using html, css, js",
-        "demoLink":"#",
-        "code":"#"
+        "heading":"Snake Mania",
+        "description":"Created a classic Snake Game using HTML, CSS, and JavaScript. Features include responsive controls, sound effects, and a dynamic scoring system. The game showcases skills in JavaScript animations, event handling, and DOM manipulation.",
+        "demoLink":"https://prashantkunvat.github.io/Snake-Game/",
+        "code":"https://github.com/prashantkunvat/Snake-Game"
     }
 ]
