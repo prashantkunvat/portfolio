@@ -1,4 +1,12 @@
 [
+
+    {
+        "imgSrc":"img/Apple-iPhone.png",
+        "heading": "3D iPhone Model",
+         "description": "Developed an interactive and responsive 3D iPhone model using React-Three-Fiber, Tailwind CSS, Three.js, GSAP, and Vite.",
+        "demoLink":"https://iphone-prashantkunvat.netlify.app/",
+        "code":"https://github.com/prashantkunvat/Apple-iPhone"
+    },
     {
         "imgSrc": "img/spotify.png",
         "heading": "My Music App",
@@ -13,12 +21,6 @@
         "demoLink": "https://prashantkunvat.github.io/socialsage/youtube/index.html",
         "code": "https://github.com/prashantkunvat/socialsage"
     }
-    ,
-    {
-        "imgSrc":"img/snake_game.png",
-        "heading":"Snake Mania",
-        "description":"Created a classic Snake Game using HTML, CSS, and JavaScript. Features include responsive controls, sound effects, and a dynamic scoring system. The game showcases skills in JavaScript animations, event handling, and DOM manipulation.",
-        "demoLink":"https://prashantkunvat.github.io/Snake-Game/",
-        "code":"https://github.com/prashantkunvat/Snake-Game"
-    }
+    
+    
 ]

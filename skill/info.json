@@ -18,6 +18,10 @@
     {
         "title": "React JS",
         "imgSrc": "img/reactjs.png"
+    },
+    {
+        "title": "GSAP",
+        "imgSrc": "img/GSAP.png"
     }
     
 ]
