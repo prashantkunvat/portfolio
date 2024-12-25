@@ -20,6 +20,13 @@
         "description": "Social Sage is an innovative media aggregation tool designed to streamline the downloading of content from major social and streaming platforms, including YouTube, Instagram, Facebook, and Spotify.",
         "demoLink": "https://prashantkunvat.github.io/socialsage/youtube/index.html",
         "code": "https://github.com/prashantkunvat/socialsage"
+    },
+    {
+        "imgSrc": "img/Nike.png",
+        "heading": "Nike-Clone",
+        "description": "A sleek Nike Clone built as a single-page application using React and Tailwind CSS, showcasing modern design and responsive layouts.",
+        "demoLink": "https://mynikeapp.netlify.app/",
+        "code": "https://github.com/prashantkunvat/Nike"
     }
     
     
