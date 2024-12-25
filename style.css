@@ -279,6 +279,7 @@ body {
 	border-radius: 12px;
 	display: block;
 	overflow: hidden;
+	cursor: pointer;
 }
 .project-img img {
 	width: 100%;
